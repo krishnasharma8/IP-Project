@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { getDietPlan } from "../api/llamaApi";
+import { getDietPlan } from "../api/generateDietPlan";
 
 const DietForm = () => {
   const [dietType, setDietType] = useState("vegetarian");
