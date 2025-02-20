@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# Flex-It-Out
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to **Flex-It-Out**, an innovative AI-driven fitness platform designed to bring personalized workout and nutrition plans directly to you! Currently under construction, this platform integrates the **MERN stack** (MongoDB, Express, React, Node.js) with machine learning libraries **ML5.js** and **P5.js** to create a smart and engaging fitness experience.
 
-## Available Scripts
+## 🚧 Project Under Construction
 
-In the project directory, you can run:
+Flex-It-Out is still in development, and we are actively working to implement features and refine the user experience. Stay tuned for future updates!
 
-### `npm start`
+## Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🏋️ **Workout Session Page**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Live workout tracking with AI-based rep counting and instant feedback to ensure accurate performance and progress during each session.
 
-### `npm test`
+### 📅 **Workout Plans Page**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Personalized workout plans generated using AI, with completion tracking to help you stay motivated and monitor progress.
 
-### `npm run build`
+### 🧑‍🍳 **Diet & Nutrition Page**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+AI-recommended meal plans tailored to your fitness goals, adjusting dynamically based on your workouts and progress.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🗣️ **AI Coaching Chatbot**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Get real-time guidance from an AI-powered chatbot trained to answer fitness and nutrition-related questions, offer workout tips, and give advice on improving your routines.
 
-### `npm run eject`
+### 💳 **Adaptive Subscription Model**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Flexible plans with progress visualization (weekly/monthly) and goal adjustments.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **MERN Stack**: MongoDB, Express, React, Node.js
+- **Machine Learning**: ML5.js (for AI and ML functionality) and P5.js (for interactive elements)
+- **AI Model**: Meta-Llama-3-8B-Instruct for personalized recommendations
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Prerequisites
 
-## Learn More
+Before getting started, make sure you have the following installed on your local machine:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Node.js** (Download and install from [Node.js official website](https://nodejs.org/))
+- **npm** (comes with Node.js installation)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Getting Started
 
-### Code Splitting
+Follow these steps to set up the project on your local machine:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. **Download the Code**
 
-### Analyzing the Bundle Size
+   - Clone the repository or download the source code.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```bash
+   git clone https://github.com/jasneet-arora27/Flex-It-Out.git
+   cd Flex-It-Out
+   ```
 
-### Making a Progressive Web App
+2. **Install Node Modules**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   - Run the following command to install the necessary Node.js dependencies:
 
-### Advanced Configuration
+   ```bash
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. **Install P5.js**
 
-### Deployment
+   - P5.js is used for creating interactive experiences. Install it by running:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+   ```bash
+   npm install p5.js
+   ```
 
-### `npm run build` fails to minify
+4. **Install ML5.js**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   - ML5.js is used for machine learning features in the app. Install it by running:
+
+   ```bash
+   npm install ml5.js
+   ```
+
+5. **Run the Application**
+
+   - After installing the dependencies, start the server with the following command:
+
+   ```bash
+   npm start
+   ```
+
+This will start the local development server. You can view the app in your browser at http://localhost:3000.
+
+## Contributing
+
+We welcome contributions to Flex-It-Out! Feel free to fork the repository, make changes, and submit pull requests. Your feedback and improvements are greatly appreciated.
