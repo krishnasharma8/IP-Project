@@ -44,3 +44,4 @@ export const detectSquat = (pose, exerciseState, setRepCount, setFeedback, setCa
 
   }
 };
+
