@@ -1,5 +1,5 @@
 const API_TOKEN = process.env.REACT_APP_API_TOKEN; // Replace with your real token
-const MODEL = "meta-llama/Meta-Llama-3-8B-Instruct";
+const MODEL = "gpt2";
 
 export const getDietPlan = async (
   dietType,
